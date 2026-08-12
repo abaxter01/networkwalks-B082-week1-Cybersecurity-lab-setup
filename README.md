@@ -42,7 +42,7 @@ This is the hypervisor that will be used to host the Kali Linux virtual machine 
 
 https://virtualbox.org/wiki/Downloads
 
-<img width="615" height="446" alt="image" src="https://github.com/user-attachments/assets/ecaadab3-2c21-4528-9977-a214965ed632" />
+<img width="615" height="446" alt="image" src="https://github.com/user-attachments/assets/ecaadab3-2c21-4528-9977-a214965ed632" /> 
 
 <br>
 <br>
