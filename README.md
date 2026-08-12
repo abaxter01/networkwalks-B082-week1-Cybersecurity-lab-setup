@@ -30,15 +30,33 @@ The purpose of this lab is to create an isolated and controlled lab environment 
 
 ### 📝 Steps To Set Up Lab Environment
 
-#### Step 1. Download & install 7-zip
+#### Step 1. Download & Install 7-zip
+This application was used to extract the Kali Linux virtual machine package.
+
 https://7-zip.org/download.html
-#### Step 2. Download & install Virtualbox on your laptop/PC
+
+<br>
+
+#### Step 2. Download & Install Virtualbox 
+This is the hypervisor that will be used to host the Kali Linux virtual machine and among others.
+
 https://virtualbox.org/wiki/Downloads
+
+<br>
+
 #### Step 3. Configure the network settings on your Virtualbox 
 (create NATNetwork in 10.0.0.0/24)
+
+<br>
+
 #### Step 4. Download & import Kali Linux Virtual Machine in your Virtualbox
 https://kali.org/get-kali
+
+<br>
+
 #### Step 5. Setup the IP configuration of Kali Linux
+
+<br>
 
 #### Step 6. Take snapshot of the VM
 
