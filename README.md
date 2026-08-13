@@ -1,4 +1,4 @@
-# Networkwalks-B082 Week1 Cybersecurity Lab Setup
+# Week 1 Cybersecurity Lab Setup
 ## 🛡️Cybersecurity Lab Environment Setup
 
 ### Purpose of the Lab 
