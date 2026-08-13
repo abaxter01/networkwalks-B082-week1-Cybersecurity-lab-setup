@@ -1,7 +1,7 @@
 # Week 1 Cybersecurity Lab Setup
-## 🛡️Cybersecurity Lab Environment Setup
+# 🛡️Cybersecurity Lab Environment Setup
 
-### Purpose of the Lab 
+## Purpose of the Lab 
 The purpose of this lab is to create an isolated and controlled lab environment for authorized cybersecurity learning, network, and security testing using VirtualBox and Kali Linux.
 
 <br>
@@ -10,7 +10,7 @@ The purpose of this lab is to create an isolated and controlled lab environment 
 
 ---
 
-### 🏗️ Required Tools
+## 🏗️ Required Tools
 
 - 7-zip
 - VirtualBox
@@ -18,7 +18,7 @@ The purpose of this lab is to create an isolated and controlled lab environment 
   
 ---
 
-### 🔩 Lab Configuration
+## 🔩 Lab Configuration
 
 | Component | Configuration |
 |-----------|-------------|
@@ -37,7 +37,7 @@ The purpose of this lab is to create an isolated and controlled lab environment 
 
 ---
 
-### 📝 Steps To Set Up Lab Environment
+## 📝 Steps To Set Up Lab Environment
 
 #### ➡️ Step 1. Download & Install 7-zip
 This application was used to extract the Kali Linux virtual machine package.
@@ -117,7 +117,7 @@ After completing the Kali Linux VM set up, a VirtualBox snapshot was created for
 
 ----
 
-### ✅ Verification of Lab Configuration
+## ✅ Verification of Lab Configurations
 
 | Test | Command | Output |
 |-----------|-------------|--------|
@@ -130,7 +130,7 @@ After completing the Kali Linux VM set up, a VirtualBox snapshot was created for
 
  ---
  
- ### ⚖️ Problem and Solution
+ ## ⚖️ Problem and Solution
  - ####  Internet connection error after manual IP configuration
 
 Depending on the Kali/NetworkManager configuration, Internet access may not operate after manually adjusting the IPv4 settings.
@@ -143,7 +143,7 @@ For this lab setup, the following solution was employed:
 
 ---
 
-### 🧠 What I Learned
+## 🧠 What I Learned
 
 **1. NAT Network**
 
@@ -166,7 +166,7 @@ Cybersecurity Professional B082 Intern
 LinkedIn: www.linkedin.com/in/anieka-baxter-b6156618b
 
 ---
-### Program Information
+### 📚 Program Information
 **Program Name:** Cybersecurity at Networkwalks 
 
 **Week:** 01 | **Project:** Cybersecurity & Pentesting Lab Setup | **Repository:** GitHub
