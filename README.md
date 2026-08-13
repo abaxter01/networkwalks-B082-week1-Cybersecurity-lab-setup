@@ -6,9 +6,18 @@ The purpose of this lab is to create an isolated and controlled lab environment 
 
 <br>
 
-⚠️*This laboratory system must only be used for systems that you own or have explicit written and/or documented permission from the owner to test*
+⚠️ **CAUTION** *This laboratory system must only be used for systems that you own or have explicit written and/or documented permission from the owner to test. This lab environment is intended for educational purposes only.*
 
 ---
+
+### 🏗️ Required Tools
+
+- 7-zip
+- VirtualBox
+- Kali Linux
+  
+---
+
 ### 🔩 Lab Configuration
 
 | Component | Configuration |
@@ -20,7 +29,7 @@ The purpose of this lab is to create an isolated and controlled lab environment 
 | Security OS | Kali Linux 2026.2 |
 | Kali RAM | 2048 MB |
 | Virtual Network | NAT Network |
-| Network Address | 10.0.0.0/24 |
+| Network CIDR | 10.0.0.0/24 |
 | Kali IP Address | 10.0.0.2/24 |
 | Default Gateway | 10.0.0.1 |
 | DNS Server | 8.8.8.8 |
@@ -118,8 +127,49 @@ After completing the Kali Linux VM set up, a VirtualBox snapshot was created for
 | DNS resolution | `nslookup networkwalks.com` | <img width="497" height="136" alt="Screenshot 2026-08-13 012828" src="https://github.com/user-attachments/assets/62575003-1a27-46f0-a14c-811cf4a77a9c" /> |
 
 <br>
+
+ ---
  
  ### ⚖️ Problem and Solution
- ####  Internet connection error after manual IP configuration
+ - ####  Internet connection error after manual IP configuration
+
+Depending on the Kali/NetworkManager configuration, Internet access may not operate after manually adjusting the IPv4 settings.
+
+For this lab setup, the following solution was employed:
+
+`sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0`
+
+> **To Note:** *The names of connections and network interfaces might vary between systems. Before executing a nmcli command, students should determine the true name of their connection.*
+
+---
+
+### 🧠 What I Learned
+
+**1. NAT Network**
+
+A NAT network offers network address translation for external connection while enabling communication between several virtual machines (VMs) linked to the same virtual network. Because of this, it can be used to construct a multi-machine cybersecurity lab.
+
+**2. Documentation**
+
+ An important component of professional cybersecurity is recording the commands, configurations, screenshots, problems, and solutions of all projects.
+
+**3.VM Snapshots**
+
+For future cybersecurity exercises, a clean snapshot offers a known-good recovery point. A clean snapshot should always be created before engaging in risky or experimental activities.
+
+---
+## 👤 Author
+**Anieka Baxter**
+
+Cybersecurity Professional B082 Intern
+
+LinkedIn: www.linkedin.com/in/anieka-baxter-b6156618b
+
+---
+### Program Information
+**Program Name:** Cybersecurity at Networkwalks 
+
+**Week:** 01 | **Project:** Cybersecurity & Pentesting Lab Setup | **Repository:** GitHub
+
 
 
