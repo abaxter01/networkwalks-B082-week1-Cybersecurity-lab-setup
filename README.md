@@ -91,13 +91,35 @@ Enter your Kali credentials and you should be taken to the Kali Linux home scree
 
 #### ➡️ Step 5. Setup the IP configuration of Kali Linux
 
+The Kali Linux network was configured with the following IPv4 address. This IP address allows for a easier identification of the device in future exercises.
+
+<img width="1083" height="662" alt="Screenshot 2026-08-13 004558" src="https://github.com/user-attachments/assets/ec2fcf44-5087-45bd-8cf4-7599a1d1c56d" />
+
 <br>
 <br>
 
 #### ➡️ Step 6. Take snapshot of the VM
 
+After completing the Kali Linux VM set up, a VirtualBox snapshot was created for backup and restoration of the lab environment in case of future technical difficulties or the lab environment gets damage from exercises.
 
+<img width="926" height="559" alt="Screenshot 2026-08-10 212625" src="https://github.com/user-attachments/assets/fb55e2ae-ccc5-49de-a184-876893cd4116" />
 
+<br>
 
+----
+
+### ✅ Verification of Lab Configuration
+
+| Test | Command | Output |
+|-----------|-------------|--------|
+| Kali IP address | `ip a` | <img width="663" height="332" alt="image" src="https://github.com/user-attachments/assets/0f438fda-d973-4b42-930d-b4e5f0e0acf6" /> |
+| Gateway | `ping 10.0.0.1` | <img width="592" height="202" alt="image" src="https://github.com/user-attachments/assets/7450d0a8-10c8-4166-86c8-42158a4a745f" /> |
+| Internet Connection | `ping 8.8.8.8` | <img width="584" height="213" alt="Screenshot 2026-08-13 012839" src="https://github.com/user-attachments/assets/5f239aaa-a236-49a6-a1e3-8258a4d61205" /> |
+| DNS resolution | `nslookup networkwalks.com` | <img width="497" height="136" alt="Screenshot 2026-08-13 012828" src="https://github.com/user-attachments/assets/62575003-1a27-46f0-a14c-811cf4a77a9c" /> |
+
+<br>
+ 
+ ### ⚖️ Problem and Solution
+ ####  Internet connection error after manual IP configuration
 
 
